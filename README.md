@@ -1,4 +1,4 @@
-# Ckeditor::Base64image
+# Ckeditor::Base64image [![Gem Version](https://badge.fury.io/rb/ckeditor-base64image.svg)](http://badge.fury.io/rb/ckeditor-base64image)
 
 Asset gem for [nmmf/base64image](https://github.com/nmmf/base64image). A plugin for [CKEditor](https://github.com/galetahub/ckeditor).
 
