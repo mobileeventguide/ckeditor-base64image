@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/mobileeventguide/ckeditor-base64image"
   spec.license       = "LGPL"
 
-  spec.files = Dir["{app,lib,vendor}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "railties", ">= 3.1", "< 5.0"
 end
