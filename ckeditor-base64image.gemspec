@@ -7,17 +7,13 @@ Gem::Specification.new do |spec|
   spec.name          = "ckeditor-base64image"
   spec.version       = Ckeditor::Base64image::VERSION
   spec.authors       = ["Philipp Hansch"]
-  spec.email         = ["dev@phansch.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.email         = ["philipp.hansch@mobileeventguide.de"]
+  spec.summary       = %q{Base64 images plugin for ckeditor}
+  spec.description   = %q{Adds support for uploading images in ckeditor. Inserts them as base64 with the proper mimetype.}
+  spec.homepage      = "https://github.com/mobileeventguide/ckeditor-base64image"
+  spec.license       = "LGPL"
 
-  spec.files         = `git ls-files -z`.split("\x0")
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+  spec.files = Dir["{app,lib,vendor}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "railties", ">= 3.1", "< 5.0"
 end
