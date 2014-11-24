@@ -2,6 +2,9 @@ require "ckeditor/base64image/version"
 
 module Ckeditor
   module Base64image
-    # Your code goes here...
+    module Rails
+      class Engine < ::Rails::Engine
+      end
+    end
   end
 end
