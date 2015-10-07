@@ -19,3 +19,4 @@ Add to `application.js` (after requiring `ckeditor/init`)
 Replace `'Image'` with `'base64image'` in `app/assets/javascripts/ckeditor/config.js` for the toolbar configuration.
 
 
+test
